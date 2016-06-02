@@ -71,6 +71,6 @@ theme: corporate
 deploy:
   type: git
   repo: https://github.com/Zhanxueyou/LeqiBlog.git
-  branch:
+  branch: gh-pages
   message:
   
