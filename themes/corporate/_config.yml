@@ -1,10 +1,12 @@
 # Header Menu
 menu:
   首页: /
-  团建项目: /projects/
   骑行志: /archives/ # can set archive-dir in root config to custom value
+  团建项目: /projects/
+  单车租赁: /rent/
   联系我们: /contact/
   关于我们: /about/
+  
 
 rss: /atom.xml
 
@@ -40,5 +42,5 @@ address_1: 乐骑乌托邦骑行俱乐部
 address_2: 碧水庄园公交站西
 address_3: 北京市昌平区回龙观
 skype: ptsteadman
-lat: 40.715911
-long: -73.962147
+lat: 40.119378
+long: 116.285587
