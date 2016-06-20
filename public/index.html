@@ -630,7 +630,7 @@
             <h2>乐骑乌托邦</h2>
             <p>骑行是一种信仰</p>
             <a href="/">
-              <img src="/metronic/assets/corporate/img/logos/logo.png" alt="Happy Riding Utopia">
+              <img src="/metronic/assets/corporate/img/logos/logo.jpg" alt="Happy Riding Utopia">
             </a>
           </div>
           <!-- END BOTTOM ABOUT BLOCK -->
@@ -700,6 +700,7 @@
 <script src="/metronic/assets/plugins/owl.carousel/owl.carousel.min.js"></script>
 <script src="/metronic/assets/corporate/scripts/layout.js"></script>
 <script src="/js/wow.min.js"></script>
+<script src="/js/search.js"></script>
 
 
   <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
@@ -716,6 +717,16 @@
 	new WOW().init();
     });
 </script>
+
+<script type="text/javascript">      
+     var search_path = "search.xml";
+     if (search_path.length == 0) {
+     	search_path = "search.xml";
+     }
+     var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+</script>
+
 <!-- END CORE PLUGINS -->
 
 <!-- BEGIN PAGE-SPECIFIC PLUGINS --> 
